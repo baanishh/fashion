@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navi{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    background: rgb(0, 0, 0);
+}
+.mar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    font-family: "Gugi", sans-serif;
+    font-size: 40px;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-item {
+    border: 1px solid rgba(255, 255, 255, 0.429);
+    border-radius: 25px;
+}
+.navbar-right{
+    margin-left: 100px;
+    
+} 
+.navbar-left{
+    margin-right: 100px;
+}
+.navbar-brand{
+    position: absolute;
+    left: 47.5%;
+}
+
+
+
+
+/* SECTION 1 */
+#first{
+    background: black;
+}
+.img1{
+    border-radius: 45px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgcon{
+    height: 560px;
+    padding-right: 70px;
+
+    
+}
+.tiny{
+    color: rgba(255, 255, 255, 0.784);
+    position: absolute;
+    left: 3%;
+    font-size: 20px;
+    top: 28%;
+}
+.bane{
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    font-size: 210px;
+    padding-top: 5px; 
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 289px; 
+    margin-left: 20px;
+    position: absolute;
+    letter-spacing: -24px;
+    transform: scale(1, 1.8);
+    
+}
+
+.fashion{
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    letter-spacing: -25px;
+    font-size: 220px;
+    margin-left: 20px;
+    margin-top: 15px;
+    transform: scale(1, 1.8);
+   
+   
+}
+.sqr{
+    height: 280px;
+    width: 430px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 45px;
+    background: linear-gradient(175deg, #252424, #131212);
+}
+.sqr1{
+    width: 390px;
+    height:65px;
+    background: white;
+    position: absolute;
+    bottom:50px;
+    right: 94px;
+    border-radius: 45px;
+}
+.ij1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 103px;
+    bottom: 58px;
+    font-size: 50px;
+}
+.p1{
+    max-width: 300px;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.p2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+}
+
+
+/* section-2 */
+#second{
+    background: rgba(0, 0, 0, 0.607);
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+}
+.pu{
+    margin-top: 10px;
+}
+
+/* sectio-3 */
+#three{
+    background:black;
+   color: white;
+}
+.raw{
+    padding-top: 115px;
+    padding-bottom: 70px;
+}
+.phil{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 90px;
+}
+.why{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -5px;
+    margin-right: 70px;
+}
+
+/* 
+section-4 */
+
+ #four{
+    background-color: black;
+    padding-bottom: 150px;
+}
+.imgu0{
+    border-radius: 45px;
+    width: 100%;
+    height: 100%;
+}
+.imgu{
+    height: 560px;
+    padding-right: 70px;
+}
+.yt{
+    color: white;
+    position: absolute;
+    left: 39%;
+    bottom: -410px;
+    background: black;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 10px;
+}
+
+/* section-5 */
+#five{
+    background: black;
+    color: white;
+    padding-bottom: 100px;
+}
+.our{
+    font-size: 20px;
+}
+.you{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 70px;
+    text-align: left;
+    line-height: 60px;
+}
+.p3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: px;
+   padding-right: 40px;
+   text-align: center;
+   border-radius: 25px;
+ background-color: white;
+}
+
+.ij2{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2175px;
+    z-index: 5;
+    left: 1500px;
+}
+.sui{
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+/* section-6 */
+
+#six{
+    background: black;
+    padding-bottom: 100px;
+}
+.wrap{
+    margin: 40px;
+    border-radius: 20px;
+}
+.iee{
+    border-radius: 20px;
+}
+.lis{
+    padding: 30px;
+}
+.lis li{
+    color: white;
+    border: none;
+    background: black;
+}
+.core{
+    color: white;
+    padding: 30px;
+    max-width: 400px;
+    font-weight: lighter;
+}
+.anu{
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    transform: scaleY(1.9);
+}
+.rs{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.rs2{
+    color: white;
+    font-size: 20px;
+    margin-left: 48px;
+}
+.fa-gratipay{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.652);
+}
+.fa-cart-shopping{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.652);
+}
+
+/* section-7 */
+#seven{
+    background: black;
+    padding-bottom: 100px;
+}
+.drip img{
+    border-radius: 25px;
+    width: 100%;
+    height: 500px;
+}
+.trip img{
+    border-radius: 25px;
+    height: 500px;
+}
+.an{
+    /* font-family: "Rubik Mono One", monospace; */
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 90px;
+}
+.an1{
+    /* font-family: "Rubik Mono One", monospace; */
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   margin-right: 90px;
+   line-height: 40px;
+   margin-top: 10px;
+   
+}
+.feed{
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: -18px;
+   padding-right: 85px;
+    transform: scale(1, 1.8);
+}
+.sun{
+    color: white;
+}
+
+.cr3,.cr1,.cr2 {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* section-8 */
+#eight{
+    background: black;
+    padding: 0 20px;
+    padding-bottom: 200px;
+}
+#eight img{
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.do{
+    margin-top: 20px;
+color: white;
+font-size: 30px;
+}
+
+/* section-9 */
+#nine{
+    background: black;
+    padding-bottom: 100px;
+    
+}
+ .imm{
+    overflow: hidden;
+    position: relative;
+ margin-left: 85px;
+ }
+.imm img{
+   
+   width: 95%;
+   height: auto;
+   transform: scaleX(-1);
+  background-size: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  display: block;
+}
+.texxt{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 60px;
+    top: 8%;
+    left: 5%;
+   
+    background: linear-gradient(to right, rgb(247, 255, 5), rgb(255, 255, 255));  /* Apply a black to white gradient */
+    -webkit-background-clip: text;  /* Clip the background to the text (for WebKit browsers) */
+    background-clip: text;  /* Clip the background to the text */
+    color: transparent;
+
+}
+.drama{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 60px;
+    top: 35%;
+    left: 5%;
+    transform: scale(1, 1.8);
+    max-width: 800px;
+    font-family: "Rubik Mono One", monospace;
+    line-height: 50px;
+    word-spacing: -25px;
+    text-align: left;
+    background: linear-gradient(to right, rgb(247, 255, 5), rgb(255, 255, 255));  /* Apply a black to white gradient */
+    -webkit-background-clip: text;  /* Clip the background to the text (for WebKit browsers) */
+    background-clip: text;  /* Clip the background to the text */
+    color: transparent;
+}
+.buy{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    top: 80%;
+    left: 5%;
+    background: linear-gradient(to right, rgb(247, 255, 5), rgb(255, 255, 255));  /* Apply a black to white gradient */
+    -webkit-background-clip: text;  /* Clip the background to the text (for WebKit browsers) */
+    background-clip: text;  /* Clip the background to the text */
+    color: transparent;
+}
+
+/* section-10 */
+#ten{
+    background: black;
+    padding-bottom: 100px;
+}
+#ten li{
+    color: white;
+    background: black;
+    border: none;
+    line-height: 13px;
+}
+.bra{
+    color: white;
+    font-family: "Gugi", sans-serif;
+    font-size: 130px;
+    transform: scale(1, 1.8);
+    position:absolute;
+}
+.cov{
+    position: relative;
+    left: 25%;
+    top: 4%;
+}
+.sq{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+/* section-11 */
+#eleven{
+    background-color: black;
+    padding-bottom: 20px;
+    padding-left: 5%;
+   
+    
+}
+.cm{
+    color: white;
+}
+.pd{
+    font-size: 15px !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.875);
+    text-align: center;
+}
+.cp{
+    text-align: left;
+}
